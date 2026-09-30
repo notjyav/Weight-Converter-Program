@@ -28,11 +28,6 @@ public class Main {
             newWeight = weight * 2.20462;
             System.out.printf("The new weight in lbs is %.2f", newWeight);
         }
-        else
-        {
-            System.out.println("Enter correct input: ");
-        }
-
 
     }
 }
