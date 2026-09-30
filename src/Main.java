@@ -23,7 +23,10 @@ public class Main {
             System.out.printf("The new weight in kgs is %.2f", newWeight);
         }
         else if (choice == 2) {
-
+            System.out.print("Enter the kgs amount to convert: ");
+            weight = scanner.nextDouble();
+            newWeight = weight * 2.20462;
+            System.out.printf("The new weight in lbs is %.2f", newWeight);
         }
         else
         {
